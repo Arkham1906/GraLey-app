@@ -1,0 +1,14 @@
+{
+  "name": "graley-alertas",
+  "version": "0.1.0",
+  "description": "Consulta el Boletín Judicial del TSJ Nayarit y detecta acuerdos nuevos en expedientes específicos",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.14"
+  },
+  "scripts": {
+    "consultar": "node src/cli.js",
+    "test": "node --test"
+  }
+}
